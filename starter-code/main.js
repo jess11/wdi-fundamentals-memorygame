@@ -5,7 +5,7 @@ var cardTwo = "queen";
 var cardThree = "king";
 var cardFour = "king";
 
-//Loop, if cards have the same value then alert "You found a match!" Otherwise alert "Sorry, try again."
+/*Loop, if cards have the same value then alert "You found a match!" Otherwise alert "Sorry, try again."
 if (cardTwo === cardFour || cardOne === cardThree || cardOne === cardFour || cardTwo === cardThree){
 	alert("Sorry, try again.");
 } else if (cardOne === cardTwo){
@@ -13,3 +13,18 @@ if (cardTwo === cardFour || cardOne === cardThree || cardOne === cardFour || car
 	else (cardThree === cardFour){
 	alert("You found a match!");
 }
+*/
+
+
+var createCards = function(cardNumbers){
+
+	for (var i = 0; i < cardNumbers; i++){
+	var gameBoard = document.getElementById('game-board');
+	var newCard = document.createElement('div');
+	newCard.className= 'card';
+	gameBoard.appendChild(newCard);
+};
+}
+
+createCards(4);
+
