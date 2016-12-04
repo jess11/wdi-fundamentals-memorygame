@@ -2,6 +2,8 @@
 	height: 50%;
 	width: 50%;
 	display:inline-block;
+	margin: 0 25%;
+
 }
 .card{
 	height:200px;
@@ -61,3 +63,8 @@ footer{
         font-size: 0;
       } 
 
+img{
+	height: 200px;
+	width:150px;
+
+}
